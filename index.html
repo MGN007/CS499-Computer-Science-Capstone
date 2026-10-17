@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CS 499 Computer Science Capstone ePortfolio">
+  <title>CS 499 | Computer Science ePortfolio</title>
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #101827; color: #e8eef8; line-height: 1.7; }
+    a { color: #91caff; }
+    a:hover { color: white; }
+    .wrap { width: min(100% - 36px, 960px); margin: auto; }
+    header { padding: 68px 0 44px; background: linear-gradient(135deg,#152c4c,#101827); border-bottom: 1px solid #30445f; }
+    .eyebrow { color: #a7c8ed; text-transform: uppercase; letter-spacing: .12em; font-size: .8rem; font-weight: bold; }
+    h1 { font-size: clamp(2rem,5vw,3.3rem); line-height: 1.2; margin: 10px 0; }
+    h2 { color: #fff; font-size: 1.65rem; margin: 0 0 16px; }
+    h3 { margin: 0 0 8px; color: #fff; }
+    p { margin: 0 0 16px; }
+    .subtitle { max-width: 690px; color: #c3d3e7; font-size: 1.1rem; }
+    nav { background: #172337; border-bottom: 1px solid #30445f; }
+    nav .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; padding: 14px 0; }
+    nav a { text-decoration: none; font-weight: bold; font-size: .92rem; }
+    main { padding: 34px 0 60px; }
+    section { padding: 34px 0; border-bottom: 1px solid #2d4059; scroll-margin-top: 18px; }
+    .card { background: #1a2940; border: 1px solid #354c69; border-radius: 12px; padding: 24px; margin-top: 18px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 18px; }
+    .grid .card { margin: 0; }
+    .button { display: inline-block; margin: 8px 10px 4px 0; padding: 10px 15px; background: #9ed0ff; color: #10223a; border-radius: 7px; font-weight: bold; text-decoration: none; }
+    .button:hover { background: white; color: #10223a; }
+    .muted { color: #c0cee0; }
+    .video { position: relative; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 12px; border: 1px solid #354c69; margin: 18px 0; }
+    .video iframe { position: absolute; width: 100%; height: 100%; border: 0; }
+    footer { padding: 28px 0; color: #b6c5d8; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">Southern New Hampshire University · CS 499</div>
+      <h1>Computer Science ePortfolio</h1>
+      <p class="subtitle">A collection of coursework and capstone enhancements demonstrating my progress in software design, algorithms and data structures, databases, and secure development.</p>
+    </div>
+  </header>
+  <nav aria-label="Portfolio navigation"><div class="wrap">
+    <a href="#self-assessment">Self-Assessment</a>
+    <a href="#code-review">Code Review</a>
+    <a href="#enhancements">Enhancements</a>
+    <a href="#outcomes">Course Outcomes</a>
+  </div></nav>
+  <main class="wrap">
+    <section id="self-assessment">
+      <h2>01 · Professional Self-Assessment</h2>
+      <p>My computer science program introduced me to several different areas of software development. Through the program, I gained experience working with programming languages, databases, user interfaces, security concepts, and application design. The capstone gave me an opportunity to revisit previous coursework and make improvements based on what I learned.</p>
+      <p>My projects also helped me practice explaining technical decisions, considering user needs, and recognizing security concerns. I originally pursued this degree through the tuition benefit offered by my employer. Although I do not currently plan to pursue a programming career, I value the knowledge and problem-solving experience I gained from completing the program.</p>
+      <p class="muted">The complete professional self-assessment is available below, including my reflections on collaboration, communication, technical skills, security, and the artifacts selected for this portfolio.</p>
+      <a class="button" href="CS499_Professional_Self_Assessment.docx">Read Full Self-Assessment (Word)</a>
+    </section>
+
+    <section id="code-review">
+      <h2>02 · Code Review</h2>
+      <p>This recorded review examines the original projects selected for the capstone, identifies areas for improvement, and explains the enhancements planned for the final portfolio.</p>
+      <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/Y_4hvZYdCoQ" title="CS 499 Milestone One Code Review" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <a href="https://youtu.be/Y_4hvZYdCoQ" target="_blank" rel="noopener noreferrer">Open the code review on YouTube</a>
+    </section>
+
+    <section id="enhancements">
+      <h2>03 · Capstone Enhancements</h2>
+      <p>Each enhancement includes the original artifact, the updated version, a written narrative, and a README explaining the project and changes.</p>
+      <div class="grid">
+        <article class="card">
+          <h3>Enhancement One</h3>
+          <p><strong>Software Design and Engineering</strong></p>
+          <p>CS 360 Inventory Tracker: improvements to inventory handling, searching, input validation, low-stock notifications, and password storage using salted PBKDF2 hashing.</p>
+          <a class="button" href="Enhancement-One-Software-Design/">View Project Files</a>
+          <a href="Enhancement-One-Software-Design/README.md">Read Project Overview</a>
+        </article>
+        <article class="card">
+          <h3>Enhancement Two</h3>
+          <p><strong>Algorithms and Data Structures</strong></p>
+          <p>CS 300 Advising Assistance: a course-planning application enhanced with hash-table lookup, prerequisite validation, cycle detection, and topological ordering.</p>
+          <a class="button" href="Enhancement-Two-Algorithms-Data-Structures/">View Project Files</a>
+          <a href="Enhancement-Two-Algorithms-Data-Structures/README.md">Read Project Overview</a>
+        </article>
+        <article class="card">
+          <h3>Enhancement Three</h3>
+          <p><strong>Databases</strong></p>
+          <p>CS 340 Grazioso Salvare: improvements to MongoDB connection configuration, input validation, database availability checks, indexing, and aggregation.</p>
+          <a class="button" href="Enhancement-Three-Databases/">View Project Files</a>
+          <a href="Enhancement-Three-Databases/README.md">Read Project Overview</a>
+        </article>
+      </div>
+      <p class="muted" style="margin-top:20px">The project folders contain the complete enhancement narratives and downloadable original and enhanced code archives.</p>
+    </section>
+
+    <section id="outcomes">
+      <h2>04 · Course Outcomes</h2>
+      <p>Across the coursework represented in this portfolio, I developed experience in collaborating and responding to stakeholder needs, communicating technical decisions, evaluating algorithms and data structures, using computing tools to build solutions, and applying a security mindset to software and data.</p>
+      <p>The professional self-assessment explains how my work in UI/UX design, full-stack development, cybersecurity, and the three capstone enhancements relates to these outcomes.</p>
+    </section>
+  </main>
+  <footer><div class="wrap">CS 499 Computer Science Capstone · Southern New Hampshire University</div></footer>
+</body>
+</html>
